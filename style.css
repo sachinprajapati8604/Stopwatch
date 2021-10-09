@@ -28,6 +28,8 @@
   background-image: linear-gradient(135deg, #81fbb8 10%, #28c76f 100%);
 }
 .watch {
+  text-align: center;
+  margin: auto;
   font-size: 5rem;
 }
 
@@ -36,6 +38,7 @@
   padding: 10px;
   background-color: #fff;
   color: dodgerblue;
+  border-radius: 10px;
   font-weight: 600;
   transition: ease-in 0.4s;
 }
@@ -54,7 +57,7 @@
   }
   .btn{
       width: fit-content;
-      padding: 7px;
+      padding: 8px;
   }
   .img-box img{
     height: 200px;
