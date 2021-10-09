@@ -46,11 +46,17 @@
 }
 
 @media screen and (max-width: 1020px) {
+  .app{
+    transform: translateY(0%);
+  }
   .watch {
     font-size: 4rem;
   }
   .btn{
       width: fit-content;
       padding: 7px;
+  }
+  .img-box img{
+    height: 200px;
   }
 }
