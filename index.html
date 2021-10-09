@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop-Watch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/title.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="container my-4 app ">
+        <div class="row g-2 ">
+            <div class="col-md-6 order-1 order-lg-1 img-box">
+                <img src="images/p3.jpg" alt="img not found">
+            </div>
+            <div class="col-md-6 p-5 order-1 order-lg-2 watch-col">
+                <h5 id="wish" class="text-center"> </h5>
+                <h3 class="text-center my-4 title">Stop Watch</h3>
+
+                <h1 class="text-center my-4 watch" id="time"> 00:00:00</h1>
+
+                <div class="text-center">
+                    <button class="btn btn-primary mx-2 text-center" id="start" onclick="startWatch()"> Start </button>
+                    <button class="btn btn-primary mx-2 text-center" id="stop" onclick="stopWatch()"> Stop </button>
+                    <button class="btn btn-primary mx-2 text-center" id="reset" onclick="resetWatch()"> Reset </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
