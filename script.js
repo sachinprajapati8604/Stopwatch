@@ -66,17 +66,17 @@ function liveWish() {
     let wish = "";
     let msg = document.getElementById('wish');
 
-    if (h > 05 && h <= 12) {
+    if (h >= 05 && h < 12) {
         wish = `Hii,Good Morning <i class="material-icons">light_mode</i>`;
-    } else if (h > 12 && h <= 16) {
+    } else if (h >= 12 && h < 16) {
         wish = `Hii,Good Afternoon <i class="material-icons">wb_sunny</i>`;
-    } else if (h > 16 && h <= 23) {
+    } else if (h >= 16 && h <= 23) {
         wish = `Hii,Good Evening <i class="material-icons">nightlight</i>`;
     }
     else {
         wish = `Hii,Good Evening <i class="material-icons">nights_stay</i>`;
     }
-    
+
     msg.innerHTML = `${wish} `;
     setTimeout(liveWish, 1000);
 
